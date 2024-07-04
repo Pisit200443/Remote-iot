@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.remote-control{
+    background-color: #4c7ba5;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-1 {
+    width:auto;
+    height: auto;
+    margin-right: 100px;
+}
+
+.container-remote {
+    background-color: #2f323d;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 600px;
+    border-radius: 20px;
+}
+
+.container-remote h1 {
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #e4dddd;
+    font-size: 25px;
+    font-weight: bold;
+}
+.container-remote p{
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #e4dddd;
+    font-size: 20px;
+}
+.toggle-btn-power{
+    border-radius: 5px;
+    background-color: #ff0e0e;
+    color: #fff;
+    border: none;
+    padding: 11px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    flex-direction: column;
+}
+
+.container-2 {
+    /* background-color: #2f323d; */
+    /* padding: 40px; */
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
+    width: 980px;
+    border-radius: 5px;
+}
+
+.body-remote {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+label {
+    color: #e4dddd;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 80%;
+    }
+}
+
+.toggle-btn {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 11px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+    flex-direction: column;
+}
+
+.month-year{
+    display:flex ;
+    width: 300px;
+}
+
+.button-sound {
+    border: 1px solid white;
+    border-radius: 12px;
+    position: absolute;
+    left: 15px;
+    width: 70px;
+    height: auto;
+    bottom: -220px;
+    padding: 1px;
+}
+
+.button-move {
+    border: 1px solid white;
+    border-radius: 12px;
+    position: absolute;
+    right: 15px;
+    width: 70px;
+    height: auto;
+    bottom: -220px;
+    padding: 1px;
+}
+
+.button-control {
+    border: 1px solid white;
+    border-radius: 30px;
+    position: absolute;
+    bottom: -430px;
+    padding: 1px;
+}
+
+.button-top {
+    position: absolute;
+    margin-top: 15px;
+}
